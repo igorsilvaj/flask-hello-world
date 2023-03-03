@@ -1,0 +1,1 @@
+web: gunicorn --pythonpath app src.flask_app.app:app
